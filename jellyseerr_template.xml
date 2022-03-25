@@ -16,7 +16,7 @@
 https://hub.docker.com/r/fallenbagel/jellyseerr/</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:5055]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/xWeegix/templates/main/jellyseerr_template.xml</TemplateURL>
   <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
@@ -27,7 +27,7 @@ https://hub.docker.com/r/fallenbagel/jellyseerr/</Overview>
   <Config Name="Appdata" Target="/app/config/" Default="/mnt/user/appdata/Jellyseerr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Jellyseerr</Config>
   <Config Name="Log" Target="LOG_LEVEL" Default="debug" Mode="" Description="Log verbosity." Type="Variable" Display="always" Required="false" Mask="false">info</Config>
   <Config Name="Log Time Zone" Target="TZ" Default="" Mode="" Description="Set to your time zone for log timestamps." Type="Variable" Display="always" Required="false" Mask="false">Asia/Tashkent</Config>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
-  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">022</Config>
 </Container>

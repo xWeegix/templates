@@ -4,7 +4,7 @@
   <Profile>
     Adding templates for cool projects. Please support the authors and contributors.
   </Profile>
-  </Discord>
-  </DonateLink>
-  </DonateText>
+  <Discord/>
+  <DonateLink/>
+  <DonateText/>
 </Maintainer>
