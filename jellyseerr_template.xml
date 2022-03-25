@@ -20,8 +20,8 @@ https://hub.docker.com/r/fallenbagel/jellyseerr/</Overview>
   <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Like my work? Buy me a coffee!</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/fallen.bagel</DonateLink>
   <Requires/>
   <Config Name="Network" Target="5055" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5055</Config>
   <Config Name="Appdata" Target="/app/config/" Default="/mnt/user/appdata/Jellyseerr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Jellyseerr</Config>
