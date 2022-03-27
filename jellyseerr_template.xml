@@ -17,7 +17,7 @@ https://hub.docker.com/r/fallenbagel/jellyseerr/</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:5055]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/xWeegix/templates/main/jellyseerr_template.xml</TemplateURL>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Fallenbagel/jellyseerr/main/public/android-chrome-512x512.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <DonateText>Like this project? Buy me a coffee!</DonateText>
