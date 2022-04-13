@@ -10,14 +10,14 @@
   <Support>https://github.com/Fallenbagel/jellyseerr/issues</Support>
   <Project>https://github.com/Fallenbagel/jellyseerr</Project>
   <Discord>https://discord.gg/VpVnZ92yQK</Discord>
-  <Beta>true</Beta>
+  <Beta>false</Beta>
   <Overview>Jellyseerr is a free and open source fork of Overseerr for managing requests for your media library. It integrates with your existing services, such as Sonarr, Radarr, and Jellyfin!&#xD;
 &#xD;
 https://hub.docker.com/r/fallenbagel/jellyseerr/</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:5055]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/xWeegix/templates/main/jellyseerr_template.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/Fallenbagel/jellyseerr/stable/public/android-chrome-512x512.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Fallenbagel/jellyseerr/main/public/android-chrome-512x512.png</Icon>
   <ExtraParams>--restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <DonateText>Like this project? Buy me a coffee!</DonateText>
