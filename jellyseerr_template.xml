@@ -11,9 +11,9 @@
   <Project>https://github.com/Fallenbagel/jellyseerr</Project>
   <Discord>https://discord.gg/VpVnZ92yQK</Discord>
   <Beta>false</Beta>
-  <Overview>Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers!&#xD;
+  <Overview>Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin &amp;amp; Emby media servers!&#xD;
 &#xD;
-To enable Emby support add the variable JELLYFIN_TYPE=emby in the template.&#xD;
+To enable Emby support add the variable 'JELLYFIN_TYPE=emby' in the template.&#xD;
 &#xD;
 This project is constantly updating with new features and bugfixes. See the GitHub page for current and developing features!&#xD;
 https://github.com/Fallenbagel/jellyseerr/</Overview>
@@ -29,7 +29,7 @@ https://github.com/Fallenbagel/jellyseerr/</Overview>
   <Config Name="Network" Target="5055" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5055</Config>
   <Config Name="Appdata" Target="/app/config/" Default="/mnt/user/appdata/Jellyseerr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/Jellyseerr</Config>
   <Config Name="Log" Target="LOG_LEVEL" Default="debug" Mode="" Description="Log verbosity." Type="Variable" Display="always" Required="false" Mask="false">info</Config>
-  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">99</Config>
-  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="true" Mask="false">100</Config>
-  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">022</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
 </Container>
